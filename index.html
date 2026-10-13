@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Project</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicon -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+  <!-- Frameworks Files -->
+  <link href="assets/frameworks/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/frameworks/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/frameworks/aos/aos.css" rel="stylesheet">
+  <link href="assets/frameworks/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/frameworks/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header" class="header d-flex align-items-center">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <h5 class="font-medium">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <img src="assets/img/logo.svg" alt=""> Creastate
+        </a>
+      </h5>
+      <nav id="navbar" class="navbar">
+        <ul class="d-flex align-items-center font-medium">
+          <li><a href="#category">About Us</a></li>
+          <li><a href="#projects">Our Partners</a></li>
+          <li><a href="#services">Our Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+      </nav>
+      <div class="d-flex align-items-center">
+        <a href="index.html" class="btn btn-contact-us">
+          <i class="bi bi-person-lines-fill"></i><span>Contact Us</span>
+        </a>
+      </div>
+    </div>
+    <i class="btn mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+  </header><!-- End Header -->
+    
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container position-relative hero-container">
+      <div data-aos="fade-in">
+        <div class="row text-center text-lg-start">
+          <div class="col-lg-7">
+            <h1 class="font-medium">Discover Your Dream Home with Creastate’s Expert Touch</h1>
+            <img src="assets/img/01.png" class="header-img img1" alt="">
+            <img src="assets/img/02.png" class="header-img img2" alt="">
+            <img src="assets/img/03.png" class="header-img img3" alt="">
+          </div>
+          <div class="col-lg-5 mt-2">
+            <p class="font-regular hero-p">
+              Our passion for excellence drives us to create living <br>
+              spaces that inspire comfort and joy. Through meticulous <br>
+              planning and thoughtful execution, we transform visions <br>
+              into vibrant communities where people thrive. 
+            </p>
+            <div class="d-flex justify-content-center justify-content-lg-start hero-buttons">
+              <a href="index.html" class="btn btn-get-started">Start Your Project</a>
+              <a href="index.html" class="btn btn-learn-more">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center text-lg-start hero-items">
+          <div class="col-lg-6 col-md-12 hero-item-wrapper">
+            <div class="hero-item item1 position-relative">
+              <div class="overlay">
+                <div class="tags">
+                  <button class="tag font-semi-bold">Latest Release</button>
+                  <button class="tag font-semi-bold">Traditional</button>
+                </div>
+                <div class="content">
+                  <div class="text-content">
+                    <h3 class="font-semi-bold">Tranquil Haven</h3>
+                    <p class="font-regular">3707 Irving Place, Arnold, MO 63010</p>
+                  </div>
+                  <a href="#" class="arrow-container">
+                    <img src="assets/img/arrow.svg" class="arrow-icon" alt="">
+                  </a>                  
+                </div>
+              </div>
+            </div>
+          </div><!-- End Hero Item -->
+        
+          <div class="col-lg-3 col-md-6 hero-item-wrapper">
+            <div class="hero-item item2 position-relative">
+              <div class="overlay">
+                <div class="tags">
+                  <button class="tag font-semi-bold">Minimalist</button>
+                </div>
+                <div class="content">
+                  <div class="text-content">
+                    <h3 class="font-semi-bold">Tranquil Haven</h3>
+                    <p class="font-regular">3707 Irving Place, Arnold, MO 63010</p>
+                  </div>
+                  <a href="#" class="arrow-container">
+                    <img src="assets/img/arrow.svg" class="arrow-icon" alt="">
+                  </a>                  
+                </div>
+              </div>
+            </div>
+          </div><!-- End Hero Item -->
+        
+          <div class="col-lg-3 col-md-6 hero-item-wrapper">
+            <div class="hero-item item3 position-relative">
+              <div class="overlay">
+                <div class="tags">
+                  <button class="tag font-semi-bold">Luxury</button>
+                </div>
+                <div class="content">
+                  <div class="text-content">
+                    <h3 class="font-semi-bold">Tranquil Haven</h3>
+                    <p class="font-regular">3707 Irving Place, Arnold, MO 63010</p>
+                  </div>
+                  <a href="#" class="arrow-container">
+                    <img src="assets/img/arrow.svg" class="arrow-icon" alt="">
+                  </a>                  
+                </div>
+              </div>
+            </div>
+          </div><!-- End Hero Item -->
+        </div>        
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <!--  Our Services Section -->
+  <section id="services" class="services">
+    <div class="container services-bg" data-aos="fade-up">
+      <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-6">
+          <div class="content">
+            <h2 class="font-medium">
+              Personalized Property Services to Match Your Unique Lifestyle
+            </h2>
+            <p class="font-regular">
+              Crafted with meticulous attention to detail, our real estate <br>
+              solutions are personalized to align seamlessly with your individual <br>
+              needs and preferences, guaranteeing a home that complements <br>
+              and enhances your unique lifestyle perfectly.
+            </p>
+            <div class="row">
+              <div class="col-6 services-list">
+                <ul>
+                  <li><a href="#">Property Search</a></li>
+                  <li><a href="#">Property Marketing</a></li>
+                  <li><a href="#">Legal Assistance</a></li>
+                </ul>
+              </div>
+              <div class="col-6 services-list">
+                <ul>
+                  <li><a href="#">Home Evaluation</a></li>
+                  <li><a href="#">Investment Consulting</a></li>
+                  <li><a href="#">Relocation Services</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row gy-4">
+            <div class="stats">
+              <div class="stats-item col-lg-4">
+                <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span><span>+</span>
+                <p class="font-regular">Years of experience</p> 
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item col-lg-4">
+                <span data-purecounter-start="0" data-purecounter-end="300" data-purecounter-duration="1" class="purecounter"></span><span>+</span>
+                <p class="font-regular">Happy clients</p> 
+              </div><!-- End Stats Item -->
+
+              <div class="stats-item col-lg-4"> 
+                <span>$</span><span data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1" class="purecounter"></span><span>M</span>
+                <p class="font-regular">Property sales</p> 
+              </div><!-- End Stats Item -->
+            </div>
+            <div class="image-container">
+              <img src="assets/img/07.png" class="" alt="">
+              <div class="text-overlay">
+                <h1 class="font-medium top-text">Dreams Find Home.</h1>
+                <h1 class="font-medium bottom-text">Dreams Find Home.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Our Services Section -->
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+        <div class="d-flex justify-content-between mb-4">
+          <div class="projects-header align-self-start">
+            <h2 class="font-medium">Our Latest Projects</h2>
+          </div>
+          <div class="align-self-end">
+            <div class="d-flex justify-content-between arrow-container">
+              <div class="swiper-button-prev"><i class="bi bi-arrow-left"></i></div>
+              <div class="swiper-button-next"><i class="bi bi-arrow-right"></i></div>
+            </div>
+          </div>
+      </div>        
+    </div>
+
+    <div class="slides-3 swiper">
+      <div class="swiper-wrapper">
+    
+        <div class="swiper-slide">
+          <div class="swiper-item">
+            <div class="d-flex align-items-center">
+              <img src="assets/img/08.png" class="swiper-img" alt="">
+            </div>
+            <div class="property-details mt-4">
+              <div class="row">
+                <div class="col-8">
+                  <h5 class="property-title font-semi-bold">Emerald Heights</h5>
+                  <p class="property-address">467 Stutler Lane, Altoona, PA 16602</p>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                  <p class="property-price">$420K</p>
+                </div>
+              </div>
+              <div class="property-info mt-2">
+                <span><i class="bi bi-truck-flatbed"></i> 4</span>
+                <span><i class="bi bi-badge-wc"></i> 4</span>
+                <span><i class="bi bi-arrows-fullscreen"></i> 512 m²</span>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Project Item -->
+    
+        <div class="swiper-slide">
+          <div class="swiper-item">
+            <div class="d-flex align-items-center">
+              <img src="assets/img/09.png" class="swiper-img" alt="">
+            </div>
+            <div class="property-details mt-4">
+              <div class="row">
+                <div class="col-8">
+                  <h5 class="property-title font-semi-bold">Elevate Estates</h5>
+                  <p class="property-address">1341 Poplar Street, Chicago, IL 60606</p>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                  <p class="property-price">$340K</p>
+                </div>
+              </div>
+              <div class="property-info mt-2">
+                <span><i class="bi bi-truck-flatbed"></i> 3</span>
+                <span><i class="bi bi-badge-wc"></i> 2</span>
+                <span><i class="bi bi-arrows-fullscreen"></i> 321 m²</span>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Project Item -->
+    
+        <div class="swiper-slide">
+          <div class="swiper-item">
+            <div class="d-flex align-items-center">
+              <img src="assets/img/10.png" class="swiper-img" alt="">
+            </div>
+            <div class="property-details mt-4">
+              <div class="row">
+                <div class="col-8">
+                  <h5 class="property-title font-semi-bold">Summit Sanctuary</h5>
+                  <p class="property-address">467 Stutler Lane, Altoona, PA 16602</p>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                  <p class="property-price">$220K</p>
+                </div>
+              </div>
+              <div class="property-info mt-2">
+                <span><i class="bi bi-truck-flatbed"></i> 2</span>
+                <span><i class="bi bi-badge-wc"></i> 2</span>
+                <span><i class="bi bi-arrows-fullscreen"></i> 211 m²</span>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Project Item -->
+    
+        <div class="swiper-slide">
+          <div class="swiper-item">
+            <div class="d-flex align-items-center">
+              <img src="assets/img/08.png" class="swiper-img" alt="">
+            </div>
+            <div class="property-details mt-4">
+              <div class="row">
+                <div class="col-8">
+                  <h5 class="property-title font-semi-bold">Emerald Heights</h5>
+                  <p class="property-address">467 Stutler Lane, Altoona, PA 16602</p>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                  <p class="property-price">$420K</p>
+                </div>
+              </div>
+              <div class="property-info mt-2">
+                <span><i class="bi bi-truck-flatbed"></i> 4</span>
+                <span><i class="bi bi-badge-wc"></i> 4</span>
+                <span><i class="bi bi-arrows-fullscreen"></i> 512 m²</span>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Project Item -->
+    
+        <div class="swiper-slide">
+          <div class="swiper-item">
+            <div class="d-flex align-items-center">
+              <img src="assets/img/09.png" class="swiper-img" alt="">
+            </div>
+            <div class="property-details mt-4">
+              <div class="row">
+                <div class="col-8">
+                  <h5 class="property-title font-semi-bold">Elevate Estates</h5>
+                  <p class="property-address">1341 Poplar Street, Chicago, IL 60606</p>
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                  <p class="property-price">$340K</p>
+                </div>
+              </div>
+              <div class="property-info mt-2">
+                <span><i class="bi bi-truck-flatbed"></i> 3</span>
+                <span><i class="bi bi-badge-wc"></i> 2</span>
+                <span><i class="bi bi-arrows-fullscreen"></i> 321 m²</span>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Project Item -->
+
+      </div>
+    </div>
+  </section><!-- End Team Section -->
+
+  <!-- Category Section -->
+  <section id="category" class="category">
+    <div class="container position-relative hero-container">
+      <div data-aos="fade-up" data-aos-delay="100">
+        <div class="row text-center text-lg-start">
+          <div class="col-lg-7">
+            <h2 class="font-medium category-title">Indulge in Serene Retreats<br>
+              and Find Your Perfect Home</h2>
+          </div>
+          <div class="col-lg-5 text-lg-end text-container">
+            <p class="font-regular">
+              Immerse yourself in the beauty of nature, the peace of secluded locations, and the comfort of carefully curated homes designed to offer an escape from the hustle and bustle of everyday life.
+            </p>
+          </div>
+        </div>
+        <div class="row gy-4 text-lg-start mt-4">
+
+          <div class="col-lg-4 col-md-12">
+            <div class="category-item position-relative">
+              <div class="d-flex">
+                <h4 class="font-semi-bold">01</h4>
+                <h4 class="font-semi-bold">Urban Sanctuaries</h4>
+              </div>
+              <p>Urban Sanctuaries offer a harmonious blend of modern city living and peaceful retreat. These homes are strategically located in bustling urban centers, providing easy access to amenities.</p>
+              <a href="index.html" class="font-semi-bold">Learn More</a><i class="bi bi-arrow-right"></i>
+            </div>
+          </div><!-- End Category Item -->
+
+          <div class="col-lg-4 col-md-12">
+            <div class="category-item position-relative">
+              <div class="d-flex">
+                <h4 class="font-semi-bold">02</h4>
+                <h4 class="font-semi-bold">Contemporary Hideaways</h4>
+              </div>
+              <p>Tucked away in secluded locations, these homes offer unparalleled privacy and tranquility, making them perfect retreats for those seeking solace and relaxation.</p>
+              <a href="index.html" class="font-semi-bold">Learn More</a><i class="bi bi-arrow-right"></i>
+            </div>
+          </div><!-- End Category Item -->
+
+          <div class="col-lg-4 col-md-12">
+            <div class="category-item position-relative">
+              <div class="d-flex">
+                <h4 class="font-semi-bold">03</h4>
+                <h4 class="font-semi-bold">Family-Friendly Homes</h4>
+              </div>
+              <p>Family-Friendly Homes foster a sense of togetherness and belonging, making them ideal for creating lasting memories and nurturing meaningful relationships.</p>
+              <a href="index.html" class="font-semi-bold">Learn More</a><i class="bi bi-arrow-right"></i>
+            </div>
+          </div><!-- End Category Item -->
+
+        </div>        
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <!--  Testimonials Section -->
+  <section id="testimonials" class="testimonials">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+        <div class="col-lg-6 col-md-6 video-container">
+          <div class="container text-center" data-aos="zoom-out">
+            <a href="https://www.youtube.com/watch?v=C0DPdy98e4c" class="glightbox play-btn"></a>
+            <div class="text-overlay">
+              <h1 class="font-medium top-text">Testimonials</h1>
+              <h1 class="font-medium bottom-text">Testimonials</h1>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6">
+          <div class="slides-1 swiper">
+            <div class="swiper-wrapper">
+          
+              <div class="swiper-slide">
+                <div class="testimonial-item position-relative">
+                  <div class="profile-card">
+                    <div class="profile-image">
+                      <img src="assets/img/11.png" alt="">
+                    </div>
+                    <div class="profile-info">
+                      <h5 class="font-semi-bold">Henry Ferrari</h5>
+                      <p class="title font-regular">Chief Marketing Officer</p>
+                    </div>
+                  </div>
+                  <h3 class="font-medium">
+                    Their team guided us through the entire process, from staging to closing, <span class="neutral-text">and made it stress-free. We were impressed by their professionalism and dedication.</span>
+                  </h3>
+                </div>
+              </div><!-- End Testimonial Item -->
+          
+              <div class="swiper-slide">
+                <div class="testimonial-item position-relative">
+                  <div class="profile-card">
+                    <div class="profile-image">
+                      <img src="assets/img/11.png" alt="">
+                    </div>
+                    <div class="profile-info">
+                      <h5 class="font-semi-bold">Henry Ferrari</h5>
+                      <p class="title font-regular">Chief Marketing Officer</p>
+                    </div>
+                  </div>
+                  <h3 class="font-medium">
+                    Their team guided us through the entire process, from staging to closing, <span class="neutral-text">and made it stress-free. We were impressed by their professionalism and dedication.</span>
+                  </h3>
+                </div>
+              </div><!-- End Testimonial Item -->
+          
+              <div class="swiper-slide">
+                <div class="testimonial-item position-relative">
+                  <div class="profile-card">
+                    <div class="profile-image">
+                      <img src="assets/img/11.png" alt="">
+                    </div>
+                    <div class="profile-info">
+                      <h5 class="font-semi-bold">Henry Ferrari</h5>
+                      <p class="title font-regular">Chief Marketing Officer</p>
+                    </div>
+                  </div>
+                  <h3 class="font-semi-bold">
+                    Their team guided us through the entire process, from staging to closing, <span class="neutral-text">and made it stress-free. We were impressed by their professionalism and dedication.</span>
+                  </h3>
+                </div>
+              </div><!-- End Testimonial Item -->
+          
+              <div class="swiper-slide">
+                <div class="testimonial-item position-relative">
+                  <div class="profile-card">
+                    <div class="profile-image">
+                      <img src="assets/img/11.png" alt="">
+                    </div>
+                    <div class="profile-info">
+                      <h5 class="font-semi-bold">Henry Ferrari</h5>
+                      <p class="title font-regular">Chief Marketing Officer</p>
+                    </div>
+                  </div>
+                  <h3 class="font-semi-bold">
+                    Their team guided us through the entire process, from staging to closing, <span class="neutral-text">and made it stress-free. We were impressed by their professionalism and dedication.</span>
+                  </h3>
+                </div>
+              </div><!-- End Testimonial Item -->
+          
+              <div class="swiper-slide">
+                <div class="testimonial-item position-relative">
+                  <div class="profile-card">
+                    <div class="profile-image">
+                      <img src="assets/img/11.png" alt="">
+                    </div>
+                    <div class="profile-info">
+                      <h5 class="font-semi-bold">Henry Ferrari</h5>
+                      <p class="title font-regular">Chief Marketing Officer</p>
+                    </div>
+                  </div>
+                  <h3 class="font-semi-bold">
+                    Their team guided us through the entire process, from staging to closing, <span class="neutral-text">and made it stress-free. We were impressed by their professionalism and dedication.</span>
+                  </h3>
+                </div>
+              </div><!-- End Testimonial Item -->
+      
+            </div>
+          </div>
+          <div class="d-flex mt-auto arrow-container">
+            <div class="swiper-button-prev"><i class="bi bi-arrow-left"></i></div>
+            <div class="swiper-button-next"><i class="bi bi-arrow-right"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Testimonials Section -->
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+        <div class="col-lg-5">
+          <div class="content">
+            <h2 class="font-medium">Frequently <br>
+              Asked Questions</h2>
+            <img src="assets/img/01.png" class="faq-img img1" alt="">
+            <img src="assets/img/02.png" class="faq-img img2" alt="">
+            <a href="index.html" class="btn btn-ask-more">Ask More</a>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="accordion accordion-flush" id="faqlist">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" id="faq1" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
+                  <p>How do I get started with buying a home?</p>
+                </button>
+              </h3>
+              <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  To start your homebuying journey, reach out to us either through our website or by giving us a call. Our experienced agents will guide you through the entire process, from understanding your needs to finding the perfect property and closing the deal.
+                </div>
+              </div>
+            </div><!-- End FAQ item-->
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
+                  <p>What should I consider when selling my home?</p>
+                </button>
+              </h3>
+              <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  To start your homebuying journey, reach out to us either through our website or by giving us a call. Our experienced agents will guide you through the entire process, from understanding your needs to finding the perfect property and closing the deal.                </div>
+              </div>
+            </div><!-- End FAQ item-->
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
+                  <p>How long does it typically take to buy or sell a property?</p>
+                </button>
+              </h3>
+              <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  To start your homebuying journey, reach out to us either through our website or by giving us a call. Our experienced agents will guide you through the entire process, from understanding your needs to finding the perfect property and closing the deal.                </div>
+              </div>
+            </div><!-- End FAQ item-->
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
+                  <p>What financing options are available for homebuyers?</p>
+                </button>
+              </h3>
+              <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  To start your homebuying journey, reach out to us either through our website or by giving us a call. Our experienced agents will guide you through the entire process, from understanding your needs to finding the perfect property and closing the deal.                </div>
+              </div>
+            </div><!-- End FAQ item-->
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
+                  <p>Do you provide property management services?</p>
+                </button>
+              </h3>
+              <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div class="accordion-body">
+                  To start your homebuying journey, reach out to us either through our website or by giving us a call. Our experienced agents will guide you through the entire process, from understanding your needs to finding the perfect property and closing the deal.                </div>
+              </div>
+            </div><!-- End FAQ item-->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End FAQ Section -->
+
+  <!--  Banner Section -->
+  <section id="banner" class="banner">
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="text-center">
+        <h1 class="font-medium">Start Your Journey Now.</h1>
+        <div class="image-container">
+          <img src="assets/img/12.png" alt="">
+          <a href="index.html" class="btn btn-learn-more">Subscribe to Our Email</a>
+        </div>
+      </div>      
+    </div>
+  </section><!-- End Banner Section -->
+
+  <!-- Footer -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-xxl-7 col-lg-4 col-md-12 footer-info">
+          <h5>
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.svg" alt=""> Creastate
+            </a>
+          </h5>
+          <p>hello@creastate.com</p>
+          <p>4130 Butternut Lane, Alton, IL 62002</p>
+          <p class="state">199 Oakway Lane, Woodland Hills, CA 91303</p>
+        </div>
+
+        <div class="col-xxl-1 col-lg-2 col-6 footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xxl-1 col-lg-2 col-6 footer-links">
+          <h4>Best Choices</h4>
+          <ul>
+            <li><a href="#">Minimalist</a></li>
+            <li><a href="#">Traditional</a></li>
+            <li><a href="#">Mediterranean</a></li>
+            <li><a href="#">Cottage</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xxl-1 col-lg-2 col-6 footer-links">
+          <h4>Our Policies</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Refund Policy</a></li>
+            <li><a href="#">Code of Conduct</a></li>
+          </ul>
+        </div>
+
+        <div class="col-xxl-1 col-lg-2 col-6 footer-links">
+          <h4>Social Media</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Linkedin</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="copyright">
+        &copy; Copyright Creastate 2024
+      </div>
+    </div>
+
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+
+  <!-- Frameworks JS Files -->
+  <script src="assets/frameworks/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/frameworks/aos/aos.js"></script>
+  <script src="assets/frameworks/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/frameworks/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/frameworks/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
