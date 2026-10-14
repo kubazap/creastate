@@ -2,6 +2,8 @@
 
 A responsive real estate website developed as part of my student internship, featuring property listings, service information, client testimonials, and interactive content.
 
+![Creastate Website Preview](assets/img/website-preview.png)
+
 **Live demo:** [View Website](https://kubazap.github.io/Creastate/)
 
 ## Project Structure
